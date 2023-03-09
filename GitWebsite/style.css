@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik:400,500,700,900");
+
+body{
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+.base{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+.firstRow{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 33%;
+    height: 100%;
+    background-color: #25292d;
+    padding-top: 10px;
+    padding-left: 40px;
+    color: #fff;
+}
+
+.secondRow{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: #30363c;
+}
+
+.userImg{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+.name{
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.bio{
+    margin-bottom: 16px;
+    margin-top: -10px;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.firstRowIcons{
+    width: 20px;
+    height: 20px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.infoText{
+    padding-left: 10px;
+}
+
+.search{
+    display: flex;
+    flex-direction: row;
+    width: 450px;
+    height: 45px;
+    background-color: #25292d;
+    border-radius: 15px;
+    justify-items: flex-end;
+    margin: 20px;
+}
+.searchInput{
+    font-family: Rubik;
+    font-weight: 400;
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    margin: 7px 7px 7px 10px;
+    height: 30px;
+    width: 430px;
+    color: #fff;
+}
+.searchInput:focus{
+    outline: none;
+}
+.searchBtn{
+    margin-top: 7px;
+}
+.src_btn{
+    background-color: transparent;
+    width: 55px;
+    border: none;
+    cursor: pointer;
+}
+.searchImg{
+    width: 29px;
+}
+
+
+.my{
+    color: #fff;
+    margin-top: -5px;
+    padding-left: 25px;
+}
+
+.repos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    width: 88%;
+    height: 67%;
+    background-color: transparent;
+    justify-content: flex-start;
+    align-content: flex-start;
+    box-sizing: border-box;
+    overflow-x: auto;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: space-between;
+    margin-top: 6px;
+    margin-left: 6px;
+    width: 302px;
+    height: 140px;
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+.itemIn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: flex-start;
+    width: 100%;
+    height: 32%;
+    padding-left: 15px;
+}
+
+.reposImg{
+    margin-left: -3px;
+    width: 24px;
+    height: 28px;
+}
+
+a{
+    padding-left: 3px;
+    padding-top: 2px;
+    font-size: 16px;
+    color: #0366d6;
+    cursor: pointer;
+}
+
+.reposText{
+    font-weight: 500;
+}
+
+.reposAbout{
+    padding-top: 6px;
+    font-size: 14px;
+    color: #586069;
+    text-wrap: normal;
+}
+
+.reposIcons{
+    width: 20px;
+    height: 20px;
+}
+.i1{
+    padding-left: 40px;
+}
+
+.end{
+    padding-bottom: 1px;
+}
+
+.reposIconsText{
+    padding-left: 5px;
+    font-size: 14px;
+    color: #586069;
+}
+
+.hidden{
+    margin: 0;
+    padding: 0;
+    visibility: hidden;
+    display: none;
+}
